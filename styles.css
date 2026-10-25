@@ -1,29 +1,75 @@
 
-:root {
-    --color-principal: #17365d;
-    --color-fondo: #f4f6f9;
-    --color-texto: #253044;
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: var(--color-fondo);
-    color: var(--color-texto);
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-header {
+nav a:hover {
+    color: #66c5ff;
+}
+
+.presentacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    min-height: 350px;
+}
+
+.texto-presentacion {
+    flex: 1;
+}
+
+.texto-presentacion h2 {
+    font-size: 32px;
+    color: var(--color-principal);
+}
+
+.texto-presentacion p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.imagen-presentacion img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.boton {
+    display: inline-block;
     background-color: var(--color-principal);
     color: white;
-    padding: 25px;
-    text-align: center;
+    padding: 12px 22px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 6px;
 }
 
-main {
-    padding: 40px 20px;
+.boton:hover {
+    background-color: #2876bd;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
+@media (max-width: 700px) {
+    .presentacion {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .imagen-presentacion img {
+        width: 180px;
+        height: 180px;
+    }
 }
