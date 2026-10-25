@@ -73,3 +73,52 @@ nav a:hover {
         height: 180px;
     }
 }
+.sobre-mi {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.sobre-mi h2,
+.habilidades h2 {
+    color: var(--color-principal);
+    text-align: center;
+    font-size: 28px;
+}
+
+.sobre-mi p {
+    line-height: 1.8;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.habilidades {
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.lista-habilidades {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.habilidad {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.habilidad:hover {
+    background-color: var(--color-principal);
+    color: white;
+    transform: translateY(-5px);
+}
+
+
