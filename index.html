@@ -4,162 +4,513 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio | Richard Vaca</title>
+    <meta name="description" content="Perfil profesional de Richard Vaca, analista de hardware y aplicativos.">
+    <title>Richard Vaca | Tecnología y Desarrollo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>Richard Vaca</h1>
-        <p>Estudiante de Tecnología y Desarrollo Web</p>
+    <!-- ENCABEZADO -->
+    <header class="site-header">
+        <div class="container header-content">
 
-        <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#sobre-mi">Sobre mí</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">RV<span>.</span></span>
+                <span class="logo-text">
+                    <strong>Richard Vaca</strong>
+                    <small>Analista de Hardware y Aplicativos</small>
+                </span>
+            </a>
+
+            <nav class="nav-menu" aria-label="Menú principal">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+
+        </div>
     </header>
 
     <main>
-        <section id="inicio" class="presentacion">
-            <div class="texto-presentacion">
-                <h2>¡Hola! Soy Richard Vaca</h2>
 
-                <p>
-                    Bienvenido a mi portafolio personal.
-                    Me interesa la tecnología, la programación
-                    y el desarrollo de sistemas informáticos.
-                </p>
+        <!-- PRESENTACION PRINCIPAL -->
+        <section id="inicio" class="hero">
+            <div class="container hero-content">
 
-                <p>
-                    Aquí podrás conocer más sobre mí,
-                    mis habilidades y los proyectos
-                    que he desarrollado.
-                </p>
+                <div class="hero-text">
 
-                <a href="#proyectos" class="boton">
-                    Ver mis proyectos
-                </a>
-            </div>
+                    <span class="etiqueta">
+                        TECNOLOGÍA · SOPORTE TI · DESARROLLO
+                    </span>
 
-            <div class="imagen-presentacion">
-                <img src="img/perfil.jpg"
-                     alt="Foto de Richard Vaca">
+                    <h1>
+                        Hola, soy
+                        <span>Richard Vaca.</span>
+                    </h1>
+
+                    <h2>
+                        Analista de Hardware y Aplicativos
+                    </h2>
+
+                    <p>
+                        Profesional del área tecnológica con
+                        3 años de experiencia en soporte técnico,
+                        mantenimiento de equipos, administración
+                        de aplicativos y resolución de incidencias.
+                    </p>
+
+                    <p>
+                        Me interesa el desarrollo de software,
+                        la infraestructura tecnológica y la
+                        implementación de soluciones que ayuden
+                        a mejorar los procesos de trabajo.
+                    </p>
+
+                    <div class="hero-tags">
+                        <span>Soporte TI</span>
+                        <span>Desarrollo web</span>
+                        <span>Bases de datos</span>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <a href="#proyectos" class="btn btn-primary">
+                            Ver mis proyectos
+                        </a>
+
+                        <a href="#contacto" class="btn btn-outline">
+                            Contacto
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="hero-image">
+                    <div class="profile-card">
+
+                        <div class="profile-photo">
+                            <img src="img/perfil.jpg"
+                                 alt="Fotografía de Richard Vaca">
+                        </div>
+
+                        <div class="profile-info">
+                            <span class="profile-dot"></span>
+                            <div>
+                                <strong>Richard Vaca</strong>
+                                <p>Analista de TI y desarrollador</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </section>
-        
-<section id="sobre-mi" class="sobre-mi">
-    <h2>Sobre mí</h2>
 
-    <p>
-        Soy Richard Vaca, estudiante interesado en
-        la programación y el desarrollo de sistemas web.
-        Actualmente también tengo experiencia trabajando
-        en el área de soporte técnico y tecnología.
-    </p>
+        <!-- SOBRE MI -->
+        <section id="sobre-mi" class="section section-white">
+            <div class="container">
 
-    <p>
-        Me gusta aprender nuevas herramientas,
-        solucionar problemas informáticos y desarrollar
-        proyectos que puedan ser útiles para otras personas.
-        Mi objetivo es seguir mejorando mis conocimientos
-        y crecer profesionalmente en el área de TI.
-    </p>
-</section>
+                <div class="section-heading">
+                    <span class="section-tag">01 / SOBRE MÍ</span>
+                    <h2>Conoce un poco sobre mí</h2>
+                    <p>Mi experiencia y mis objetivos profesionales.</p>
+                </div>
 
-<section id="habilidades" class="habilidades">
-    <h2>Mis habilidades</h2>
+                <div class="about-grid">
 
-    <div class="lista-habilidades">
-        <div class="habilidad">HTML</div>
-        <div class="habilidad">CSS</div>
-        <div class="habilidad">PHP</div>
-        <div class="habilidad">MySQL</div>
-        <div class="habilidad">Git y GitHub</div>
-        <div class="habilidad">Soporte técnico</div>
-    </div>
-</section>
+                    <div class="about-description">
+                        <h3>
+                            La tecnología es parte de
+                            mi trabajo y de mis proyectos.
+                        </h3>
 
-<section id="proyectos" class="proyectos">
-    <h2>Mis proyectos</h2>
-    <p>Algunos trabajos que he desarrollado.</p>
+                        <p>
+                            Soy Richard Vaca, estudiante y
+                            profesional del área de tecnología.
+                            Actualmente me desempeño como
+                            Analista de Hardware y Aplicativos,
+                            brindando soporte a usuarios,
+                            realizando mantenimiento de equipos
+                            y solucionando problemas informáticos.
+                        </p>
 
-    <div class="contenedor-proyectos">
+                        <p>
+                            Tengo experiencia en soporte técnico,
+                            gestión de incidencias, cableado
+                            estructurado, mantenimiento preventivo
+                            y correctivo, así como en el uso de
+                            herramientas de desarrollo y bases
+                            de datos.
+                        </p>
 
-        <article class="tarjeta-proyecto">
-            <img src="img/entrenapro.png"
-                 alt="Sistema EntrenaPro">
+                        <p>
+                            También me gusta desarrollar sistemas
+                            web y aprender nuevas tecnologías.
+                            Mi objetivo profesional es seguir
+                            creciendo como Analista de TI,
+                            fortaleciendo mis conocimientos en
+                            programación, infraestructura
+                            y administración de sistemas.
+                        </p>
+                    </div>
 
-            <h3>EntrenaPro</h3>
-            <p>
-                Sistema web para la administración
-                de gimnasios. Permite gestionar
-                clientes, membresías, pagos y
-                registros de asistencia.
-            </p>
-            <a href="https://entrenapro.tech"
-               target="_blank" rel="noopener noreferrer">
-                Visitar proyecto
-            </a>
-        </article>
+                    <aside class="about-details">
 
-        <article class="tarjeta-proyecto">
-            <img src="img/portafolio.png"
-                 alt="Portafolio personal">
+                        <div class="detail-card">
+                            <span class="detail-icon">01</span>
+                            <div>
+                                <h4>Experiencia profesional</h4>
+                                <p>
+                                    3 años en soporte técnico,
+                                    hardware y aplicativos.
+                                </p>
+                            </div>
+                        </div>
 
-            <h3>Portafolio personal</h3>
-            <p>
-                Sitio web desarrollado como parte
-                de mi formación académica.
-                Utiliza HTML y CSS para presentar
-                mi perfil, habilidades y proyectos.
-            </p>
-        </article>
+                        <div class="detail-card">
+                            <span class="detail-icon">02</span>
+                            <div>
+                                <h4>Desarrollo de software</h4>
+                                <p>
+                                    Sistemas web, programación
+                                    y bases de datos.
+                                </p>
+                            </div>
+                        </div>
 
-    </div>
-</section>
+                        <div class="detail-card">
+                            <span class="detail-icon">03</span>
+                            <div>
+                                <h4>Objetivo profesional</h4>
+                                <p>
+                                    Especializarme en análisis
+                                    de TI y soporte avanzado.
+                                </p>
+                            </div>
+                        </div>
 
-<section id="contacto" class="contacto">
-    <h2>Contacto</h2>
-    <p>
-        Puedes dejar tus datos en el
-        siguiente formulario.
-    </p>
+                    </aside>
 
-    <form>
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre"
-               name="nombre"
-               placeholder="Escribe tu nombre">
+                </div>
+            </div>
+        </section>
 
-        <label for="correo">Correo electrónico</label>
-        <input type="email" id="correo"
-               name="correo"
-               placeholder="ejemplo@correo.com">
+        <!-- HABILIDADES -->
+        <section id="habilidades" class="section section-gray">
+            <div class="container">
 
-        <label for="mensaje">Mensaje</label>
-        <textarea id="mensaje" name="mensaje"
-                  rows="5"
-                  placeholder="Escribe tu mensaje"></textarea>
+                <div class="section-heading">
+                    <span class="section-tag">02 / HABILIDADES</span>
+                    <h2>Mis conocimientos técnicos</h2>
+                    <p>
+                        Tecnologías y herramientas que utilizo
+                        en mi trabajo y proyectos personales.
+                    </p>
+                </div>
 
-        <button type="button">Enviar</button>
-    </form>
-</section>
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <span class="skill-number">01</span>
+                        <h3>Soporte técnico</h3>
+                        <p>
+                            Diagnóstico de problemas,
+                            mantenimiento de equipos
+                            y atención a usuarios.
+                        </p>
+                        <span class="skill-category">
+                            Hardware y Help Desk
+                        </span>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">02</span>
+                        <h3>HTML y CSS</h3>
+                        <p>
+                            Estructura, estilos y
+                            diseño adaptable de
+                            páginas web.
+                        </p>
+                        <span class="skill-category">
+                            Desarrollo frontend
+                        </span>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">03</span>
+                        <h3>PHP y Scriptcase</h3>
+                        <p>
+                            Desarrollo y mantenimiento
+                            de aplicativos y sistemas
+                            web empresariales.
+                        </p>
+                        <span class="skill-category">
+                            Aplicaciones web
+                        </span>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">04</span>
+                        <h3>MySQL y PostgreSQL</h3>
+                        <p>
+                            Consultas SQL y gestión
+                            de bases de datos para
+                            aplicaciones.
+                        </p>
+                        <span class="skill-category">
+                            Bases de datos
+                        </span>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">05</span>
+                        <h3>Java</h3>
+                        <p>
+                            Conocimientos de programación
+                            y desarrollo de soluciones
+                            informáticas.
+                        </p>
+                        <span class="skill-category">
+                            Programación
+                        </span>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">06</span>
+                        <h3>React y Node.js</h3>
+                        <p>
+                            Tecnologías utilizadas
+                            en proyectos de aplicaciones
+                            web y servicios backend.
+                        </p>
+                        <span class="skill-category">
+                            Desarrollo full stack
+                        </span>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">07</span>
+                        <h3>Windows y Linux</h3>
+                        <p>
+                            Configuración de sistemas,
+                            soporte y administración
+                            de entornos informáticos.
+                        </p>
+                        <span class="skill-category">
+                            Sistemas operativos
+                        </span>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">08</span>
+                        <h3>Redes y hardware</h3>
+                        <p>
+                            Cableado estructurado,
+                            mantenimiento y solución
+                            de problemas de conectividad.
+                        </p>
+                        <span class="skill-category">
+                            Infraestructura
+                        </span>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">09</span>
+                        <h3>Git y GitHub</h3>
+                        <p>
+                            Control de versiones,
+                            seguimiento de cambios
+                            y repositorios de código.
+                        </p>
+                        <span class="skill-category">
+                            Herramientas de desarrollo
+                        </span>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROYECTOS -->
+        <section id="proyectos" class="section section-white">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-tag">03 / PROYECTOS</span>
+                    <h2>Proyecto destacado</h2>
+                    <p>
+                        Un proyecto personal en el que
+                        he aplicado mis conocimientos
+                        de desarrollo de software.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <img src="img/entrenapro.png"
+                                 alt="Sistema web EntrenaPro">
+
+                            <span class="project-badge">
+                                Proyecto personal
+                            </span>
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>EntrenaPro</h3>
+
+                            <p>
+                                EntrenaPro es una plataforma
+                                web para la administración
+                                de gimnasios. Permite gestionar
+                                clientes, membresías, pagos,
+                                asistencias y otros procesos
+                                administrativos desde
+                                un solo sistema.
+                            </p>
+
+                            <p>
+                                El proyecto utiliza tecnologías
+                                como React, Node.js y PostgreSQL,
+                                y funciona en una infraestructura
+                                basada en Linux.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>PostgreSQL</span>
+                                <span>Linux</span>
+                            </div>
+
+                            <a href="https://entrenapro.tech"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+                                Visitar EntrenaPro ↗
+                            </a>
+
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="section section-gray">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-tag">04 / CONTACTO</span>
+                    <h2>Contacto</h2>
+                    <p>
+                        Un espacio para compartir
+                        ideas y consultas.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+
+                    <div class="contact-info">
+
+                        <h3>¿Hablamos de tecnología?</h3>
+
+                        <p>
+                            Me interesa seguir aprendiendo,
+                            compartir conocimientos y
+                            participar en proyectos
+                            relacionados con el desarrollo
+                            de software y las tecnologías
+                            de la información.
+                        </p>
+
+                        <div class="contact-detail">
+                            <span class="contact-symbol">01</span>
+                            <div>
+                                <strong>Ubicación</strong>
+                                <p>Quito, Ecuador</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <span class="contact-symbol">02</span>
+                            <div>
+                                <strong>Especialidad</strong>
+                                <p>
+                                    Soporte TI, hardware
+                                    y aplicativos.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <form class="contact-form">
+
+                        <h3>Envíame un mensaje</h3>
+
+                        <label for="nombre">Nombre</label>
+                        <input type="text"
+                               id="nombre"
+                               name="nombre"
+                               placeholder="Tu nombre">
+
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email"
+                               id="correo"
+                               name="correo"
+                               placeholder="tu@correo.com">
+
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje"
+                                  name="mensaje"
+                                  rows="5"
+                                  placeholder="Escribe tu mensaje"></textarea>
+
+                        <button type="button" class="btn btn-primary">
+                            Enviar mensaje
+                        </button>
+
+                        <small>
+                            Formulario demostrativo.
+                            No realiza envíos reales.
+                        </small>
+
+                    </form>
+                </div>
+            </div>
+        </section>
 
     </main>
 
-    <footer>
-        <p>Richard Vaca - 2026</p>
-    <p>
-        Mi perfil de
-        <a href="https://github.com/TU_USUARIO"
-           target="_blank"
-           rel="noopener noreferrer">
-            GitHub
-        </a>
-    </p>
+    <!-- PIE DE PAGINA -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+
+            <div>
+                <strong>Richard Vaca</strong>
+                <p>Analista de Hardware y Aplicativos</p>
+            </div>
+
+            <a href="https://github.com/richardbsc"
+               target="_blank"
+               rel="noopener noreferrer">
+                Mi GitHub ↗
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Richard Vaca.
+            Todos los derechos reservados.
+        </p>
     </footer>
 
 </body>
